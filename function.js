@@ -28,7 +28,7 @@ let page= 1;
     image.src = result.urls.small;
     const imageLink = document.createElement("a");
     imageLink.href = result.links.html;
-    imageLink.tearget = " _blank";
+    imageLink.target = " _blank";
 
     imageLink.appendChild(image);
     searchResult.appendChild(imageLink);
